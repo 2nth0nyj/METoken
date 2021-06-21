@@ -1,5 +1,5 @@
-const METokenMigrations = artifacts.require("./contracts/METoken.sol");
-const FaucetMigrations = artifacts.require("./contracts/Faucet.sol");
+const METokenMigrations = artifacts.require("METoken");
+const FaucetMigrations = artifacts.require("Faucet");
 
 module.exports = function (deployer) {
   deployer.deploy(METokenMigrations);
