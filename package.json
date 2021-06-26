@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "openzeppelin-solidity": "^4.1.0",
-    "solc": "^0.8.5"
+    "openzeppelin-solidity": "^4.1.0"
+  },
+  "devDependencies": {
+    "solc": "^0.8.5",
+    "truffle": "^5.3.12"
   }
 }
