@@ -29,4 +29,8 @@ contract Coin {
     balances[receiver] += amount;
     emit Sent(msg.sender, receiver, amount);  
   } 
+
+  function getBalance(address addr) public view returns (uint) {
+    return balances[addr];
+  }
 }
