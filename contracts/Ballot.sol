@@ -35,7 +35,7 @@ contract Ballot {
         );
         require(!voters[voter].voted, "The voter already voted.");
         require(voters[voter].weight == 0);
-        voters[voter].weight = 0;
+        voters[voter].weight = 1;
     }
 
     function delegate(address to) public {
