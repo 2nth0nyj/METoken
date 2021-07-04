@@ -3,7 +3,7 @@ pragma solidity ^0.8.5;
 
 contract Coin {
   address public minter;
-  mapping( address => uint ) balances;
+  mapping( address => uint ) public balances;
 
   event Sent(address from, address to, uint amount);
   
